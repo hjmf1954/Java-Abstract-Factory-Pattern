@@ -15,3 +15,5 @@ which will run the complete demo.
 
 which will show you help.
 
+  $ ant info
+which will show the 'build.info'
