@@ -1,20 +1,50 @@
-# Java-Abstract-Factory-Pattern
-Abstract Factory Pattern for JAVA without any extra tools except ANT and Java.
+## Project name
+Java Abstract Factory Pattern
 
-The project is based on the Book of the Gang of Four: Design Patterns, Elements of Reusable Object Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
+## Description
+Abstract Factory Pattern for JAVA without any extra tools except ANT and Java is an example implementation of the 2 Creational Design Patterns:
+* Abstract Factory
+* Singleton
 
-Please read the 'build.info' for more information on this project or visit 'https://www.harmfrielink.nl/wiki/index.php/Abstract_Factory'
+The Project is based on the Book of the Gang of Four: *Design Patterns, Elements of Reusable Object Oriented Software* by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
 
-If you have ANT and Java installed go to the directory where the LICENSE and the build.xml are installed ant execute:
+The file *build.info* contains all information on the project in plain text format.
 
-  $ ant all
-  
-which will run the complete demo.
+## Pre-requirements
+There are 2 installed versions necessary to run the software:
+- Installed Java Version 8 or higher. See http://www.oracle.com/technetwork/java/javase/downloads/index.html
+- Installed ANT Version 1.8 or higher. See http://ant.apache.org/manual/install.html
 
-  $ ant help
+## Installation
+- Clone the repository using the standard Git clone command.
 
-which will show you help.
+## Usage
+- Go to the directory where your have cloned the repository.
+- Make sure to have the current working directory where the *LICENSE*, *build.xml* and *build.info* are.
 
-  $ ant info
-  
-which will show the 'build.info'
+```bash
+# Runs the complete demo
+$ ant all
+
+# Shows the Help-page
+$ ant show
+
+# Shows the info (stored inside the file build.info)
+$ ant info
+```
+
+## Build Abstract Factory
+Please read the 'build.info' or use the ant script as shown above.
+For more information on this project or visit:
+* 'https://www.harmfrielink.nl/wiki/index.php/Abstract_Factory'
+* 'https://www.harmfrielink.nl/wiki/index.php/Singleton'
+
+## License
+MIT License.
+
+## Contact information
+Email is my preferred way to communciate, please use harm.frielink@gmail.com with a descriptive Subject text.
+
+
+
+
